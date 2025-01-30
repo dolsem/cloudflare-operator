@@ -7,8 +7,8 @@ import (
 	apitypes "k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	networkingv1alpha1 "github.com/adyanth/cloudflare-operator/api/v1alpha1"
 	"github.com/cloudflare/cloudflare-go"
+	networkingv1alpha1 "github.com/dolsem/cloudflare-operator/api/v1alpha1"
 	"github.com/go-logr/logr"
 )
 

@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strings"
 
-	networkingv1alpha1 "github.com/adyanth/cloudflare-operator/api/v1alpha1"
+	networkingv1alpha1 "github.com/dolsem/cloudflare-operator/api/v1alpha1"
 	"github.com/go-logr/logr"
 	yaml "gopkg.in/yaml.v3"
 	corev1 "k8s.io/api/core/v1"

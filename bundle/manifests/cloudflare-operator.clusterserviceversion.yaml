@@ -277,7 +277,7 @@ spec:
                 - --leader-elect
                 command:
                 - /manager
-                image: adyanth/cloudflare-operator:0.10.4
+                image: dolsem/cloudflare-operator:0.10.4
                 livenessProbe:
                   httpGet:
                     path: /healthz
@@ -384,5 +384,5 @@ spec:
   maturity: alpha
   provider:
     name: adyanth.dev
-    url: https://github.com/adyanth/cloudflare-operator
+    url: https://github.com/dolsem/cloudflare-operator
   version: 0.10.4

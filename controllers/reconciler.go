@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	networkingv1alpha1 "github.com/adyanth/cloudflare-operator/api/v1alpha1"
+	networkingv1alpha1 "github.com/dolsem/cloudflare-operator/api/v1alpha1"
 	"github.com/go-logr/logr"
 	yaml "gopkg.in/yaml.v3"
 	appsv1 "k8s.io/api/apps/v1"

@@ -1,4 +1,4 @@
-module github.com/adyanth/cloudflare-operator
+module github.com/dolsem/cloudflare-operator
 
 go 1.19
 

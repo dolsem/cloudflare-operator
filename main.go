@@ -18,9 +18,10 @@ package main
 
 import (
 	"flag"
-	"go.uber.org/zap/zapcore"
 	"os"
 	"time"
+
+	"go.uber.org/zap/zapcore"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	// to ensure that exec-entrypoint and run can make use of them.
@@ -33,8 +34,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	networkingv1alpha1 "github.com/adyanth/cloudflare-operator/api/v1alpha1"
-	"github.com/adyanth/cloudflare-operator/controllers"
+	networkingv1alpha1 "github.com/dolsem/cloudflare-operator/api/v1alpha1"
+	"github.com/dolsem/cloudflare-operator/controllers"
 	//+kubebuilder:scaffold:imports
 )
 

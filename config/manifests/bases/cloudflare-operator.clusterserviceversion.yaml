@@ -56,5 +56,5 @@ spec:
   maturity: alpha
   provider:
     name: adyanth.dev
-    url: https://github.com/adyanth/cloudflare-operator
+    url: https://github.com/dolsem/cloudflare-operator
   version: 0.0.0

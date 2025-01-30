@@ -26,7 +26,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	ctrllog "sigs.k8s.io/controller-runtime/pkg/log"
 
-	networkingv1alpha1 "github.com/adyanth/cloudflare-operator/api/v1alpha1"
+	networkingv1alpha1 "github.com/dolsem/cloudflare-operator/api/v1alpha1"
 	"github.com/go-logr/logr"
 	appsv1 "k8s.io/api/apps/v1"
 	"k8s.io/client-go/tools/record"
